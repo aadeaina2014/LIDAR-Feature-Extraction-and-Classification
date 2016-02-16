@@ -2,8 +2,6 @@
 % Florida Institute of Technology
 % College of Engineering
 % Electrical and Computer Engineering Department
-% ECE 5258 : Pattern Recognition
-% Instructor: Dr Anagnostopulous
 % Main Application Driver File
 % (c) November 2015 , Ayokunle Ade-Aina, aadeaina2014 @my.fit.edu
 %========================================================================%
