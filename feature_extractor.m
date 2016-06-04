@@ -1,7 +1,11 @@
+%========================================================================%
+% Florida Institute of Technology
+% College of Engineering
+% Electrical and Computer Engineering Department
+% proposed  function for GeigerMode LIDAR  Feature Extraction
+% (c) November 2015 , Ayokunle Ade-Aina, aadeaina2014 @my.fit.edu
+%========================================================================%
 function Features = feature_extractor(X,Y,Options)
-
-
-
 % P     = vertcat(X,Y);
 [m,~] = size(Y);
 
