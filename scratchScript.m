@@ -1,18 +1,11 @@
 clc; clear;close all; %setup environment for fresh task
-% DataPath = 'C:/Users/aadeaina2014/Documents/ECE 5258/Individual Course project/src/data';
-% addpath(DataPath);
 
 load Oakland.mat;
 
 idx1 = find (inputPointSet(:,4) ==1301 );
 idx2 = find (inputPointSet(:,4) ==1400 );
-
-
 X = vertcat (inputPointSet(idx1,:),inputPointSet(idx2,:));
-
 clear inputPointSet;
-
-
 [Ns,Nd] =  size(X);
 
 % Generate Subset;
@@ -21,7 +14,6 @@ clear inputPointSet;
 idx     = round(linspace(1,Ns,round(Ns/10) )); 
 L = X(idx,4);
 X = X(idx,1:3);
-
 Ns2 =  size(X,1);
 
 for y = 3
